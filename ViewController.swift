@@ -29,10 +29,10 @@ class ViewController: UIViewController {
     // MARK: - Helpers
     private func setupView() {
         view.backgroundColor = dimgrayColor
-        configureLabelButton()
+        configureButton()
     }
     
-    func configureLabelButton() {
+    func configureButton() {
         buttonTurnOn.backgroundColor = deepskyblueColor
         buttonTurnOn.setTitleColor(blackColor, for: .normal)
         buttonTurnOn.layer.cornerRadius = 5
